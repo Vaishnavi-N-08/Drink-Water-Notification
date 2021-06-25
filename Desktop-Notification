@@ -1,0 +1,9 @@
+import time
+from plyer import notification
+if __name__ == "__main__":
+    notification.notify(
+        title = " Please Drink Water",
+        message = "Drinking water is very important",
+        #app_icon = "C:\VN\Glass-water-icon.png",
+        timeout = 10
+        )
